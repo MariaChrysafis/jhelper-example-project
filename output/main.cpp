@@ -25,6 +25,8 @@ public:
 
 
 int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 	Task solver;
 	std::istream& in(std::cin);
 	std::ostream& out(std::cout);
